@@ -10,14 +10,14 @@
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"
     integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <script>
-      $(function () {
-        var ortn = window.orientation < 1;
-        ortn ? $('#header').load('headerM.html') : $('#header').load('headerD.html');
-        //ortn ? console.log('mobile'): console.log('desktop');
-        $('#footer').load('footer.html');
-      });
-    </script>
+  <script>
+    $(function () {
+      var ortn = window.orientation < 1;
+      ortn ? $('#header').load('headerM.html') : $('#header').load('headerD.html');
+      //ortn ? console.log('mobile'): console.log('desktop');
+      $('#footer').load('footer.html');
+    });
+  </script>
 </head>
 
 <body>
@@ -59,7 +59,11 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
+  <marquee style="background-color: #ED7423; color: #ffffff;">
+    <h5>
+      CORE INFOTECH SOLUTIONS | BANK RECOVERY | LOAN SALES | IT SOLUTIONS | CIBIL CONSULTANCY | INVESTMENT PLANNING
+    </h5>
+  </marquee>
 
 
   <div class="alert alert-warning card shadow m-3" role="alert">
