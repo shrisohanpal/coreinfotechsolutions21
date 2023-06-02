@@ -27,16 +27,31 @@
     <div id="header"></div>
 
 
-    <img src="images/contact.jpg" style="width:100%" />
+    <img src="images/contact.jpg" style="width:100%; height: 400px;" />
 
     <div class="container mt-5">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="container">
+            <h1 class="text-center">Submit the Form Below:</h1>
+            <form target="_blank" action="https://formsubmit.co/coreinfotechsolutions@gmail.com" method="POST">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control m-3" placeholder="Full Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" class="form-control m-3" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control m-3" name="message" rows="10"
+                        required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </div>
+                <div style="height: 300px;"></div>
+            </form>
         </div>
     </div>
 
